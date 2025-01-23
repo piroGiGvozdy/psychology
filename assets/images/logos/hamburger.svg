@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- icon666.com - MILLIONS vector ICONS FREE -->
+
+<svg
+   fill="none"
+   viewBox="0 0 35 28"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="hamburger.svg"
+   width="35"
+   height="28"
+   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="41.6"
+     inkscape:cx="9.9879808"
+     inkscape:cy="8.0048077"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 33.25,15.75 H 1.75 C 1.285872,15.75 0.8407525,15.56555 0.51256275,15.237425 0.18437475,14.9093 0,14.4641 0,14 0,13.535865 0.18437475,13.090752 0.51256275,12.762558 0.8407525,12.43438 1.285872,12.25 1.75,12.25 h 31.5 c 0.4641,0 0.9093,0.18438 1.237425,0.512558 C 34.81555,13.090752 35,13.535865 35,14 35,14.4641 34.81555,14.9093 34.487425,15.237425 34.1593,15.56555 33.7141,15.75 33.25,15.75 Z m 0,-12.25 H 1.75 C 1.285872,3.5 0.8407525,3.31562 0.51256275,2.9874425 0.18437475,2.6592475 0,2.214135 0,1.75 0,1.285865 0.18437475,0.8407525 0.51256275,0.5125575 0.8407525,0.18438 1.285872,0 1.75,0 h 31.5 c 0.4641,0 0.9093,0.18438 1.237425,0.5125575 C 34.81555,0.8407525 35,1.285865 35,1.75 35,2.214135 34.81555,2.6592475 34.487425,2.9874425 34.1593,3.31562 33.7141,3.5 33.25,3.5 Z m 0,24.5 H 1.75 C 1.285872,28 0.8407525,27.81555 0.51256275,27.487425 0.18437475,27.1593 0,26.7141 0,26.25 0,25.7859 0.18437475,25.3407 0.51256275,25.012575 0.8407525,24.68445 1.285872,24.5 1.75,24.5 h 31.5 c 0.4641,0 0.9093,0.18445 1.237425,0.512575 C 34.81555,25.3407 35,25.7859 35,26.25 35,26.7141 34.81555,27.1593 34.487425,27.487425 34.1593,27.81555 33.7141,28 33.25,28 Z"
+     fill="#000000"
+     id="path1"
+     style="fill:#984a8a;fill-opacity:1;stroke-width:1.75" />
+</svg>
