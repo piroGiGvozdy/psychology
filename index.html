@@ -28,14 +28,15 @@
 
             <div class="header-content">
 
-                <h3>Софья Бронштейн</h3>
+                <a href="#">Софья Бронштейн</a>
+                <!-- <h3>Софья Бронштейн</h3> -->
 
                 <div class="header-buttons">
                     <nav>
-                        <a href="#options" class="header-button" onclick="showPage(this, 'home')">С чем я работаю</a>
-                        <a href="#works" class="header-button" onclick="showPage(this, 'menu')">Опыт</a>
-                        <a href="#education" class="header-button" onclick="showPage(this, 'menu')">Образование</a>
-                        <a href="#deals" class="header-button" onclick="showPage(this, 'contact')">Услуги</a>
+                        <a href="#options" class="header-button">С чем я работаю</a>
+                        <a href="#works" class="header-button">Опыт</a>
+                        <a href="#education" class="header-button">Образование</a>
+                        <a href="#deals" class="header-button">Услуги</a>
                     </nav>
                 </div>
 
@@ -48,12 +49,6 @@
                         <a href="https://t.me/justsofja">
                             <img src="assets/images/logos/telegram.svg" alt="Telegram">
                         </a>
-                        <!-- <a href="https://vk.me/justsofja">
-                            <img src="assets/images/logos/vk.svg" alt="Vkontakte">
-                        </a> -->
-                        <!-- <a href="https://wa.me/79992000199">
-                            <img src="assets/images/logos/whatsapp.svg" alt="Whatsapp">
-                        </a> -->
 
                 </div>
                 
@@ -102,9 +97,81 @@
                 <h1>С чем я работаю</h1>
             </div>
 
-            <div class="options_items">
+            <div class="menu-buttons">
+                <a href="#" data-category="total" class="active" onclick="showOption('total')">Общее</a>
+                <a href="#" data-category="children" onclick="showOption('children')">Дети</a>
+                <a href="#" data-category="adults" onclick="showOption('adults')">Взрослые</a>
+            </div>
+
+            <div id="total" class="options_items active">
                 <div class="options_item">
-                    <h3>Сложности адаптации</h3>
+                    <h3>Сложности адаптации1</h3>
+                    <p>страх одиночества, сильная привязанность к другому человеку, нерешительность</p>
+                </div>
+
+                <div class="options_item">
+                    <h3>Cамопознание</h3>
+                    <p>если нет определенного запроса, но есть потребность в более глубоком изучении себя, собственного опыта, собственных ценностей</p>
+                </div>
+
+                <div class="options_item">
+                    <h3>Коммуникативные трудности</h3>
+                    <p>конфликтность, застенчивость, обидчивость</p>
+                </div>
+
+                <div class="options_item">
+                    <h3>Проблемы в отношениях</h3>
+                    <p>затруднения в отношениях с партнером, с родителем, с ребенком, с коллегами, с друзьями</p>
+                </div>
+
+                <div class="options_item">
+                    <h3>Преодоление жизненных трудностей</h3>
+                    <p>необходимость принятия решения в сложной ситуации, эмоциональной поддержки</p>
+                </div>
+
+                <div class="options_item">
+                    <h3>Эмоциональные проблемы</h3>
+                    <p>эмоциональная неустойчивость, чрезмерная агрессивность, раздражительность, подавленность, чувство тревоги</p>
+                </div>
+            </div>
+
+
+            <div id="children" class="options_items">
+                <div class="options_item">
+                    <h3>Сложности адаптации2</h3>
+                    <p>страх одиночества, сильная привязанность к другому человеку, нерешительность</p>
+                </div>
+
+                <div class="options_item">
+                    <h3>Cамопознание</h3>
+                    <p>если нет определенного запроса, но есть потребность в более глубоком изучении себя, собственного опыта, собственных ценностей</p>
+                </div>
+
+                <div class="options_item">
+                    <h3>Коммуникативные трудности</h3>
+                    <p>конфликтность, застенчивость, обидчивость</p>
+                </div>
+
+                <div class="options_item">
+                    <h3>Проблемы в отношениях</h3>
+                    <p>затруднения в отношениях с партнером, с родителем, с ребенком, с коллегами, с друзьями</p>
+                </div>
+
+                <div class="options_item">
+                    <h3>Преодоление жизненных трудностей</h3>
+                    <p>необходимость принятия решения в сложной ситуации, эмоциональной поддержки</p>
+                </div>
+
+                <div class="options_item">
+                    <h3>Эмоциональные проблемы</h3>
+                    <p>эмоциональная неустойчивость, чрезмерная агрессивность, раздражительность, подавленность, чувство тревоги</p>
+                </div>
+            </div>
+
+
+            <div id="adults" class="options_items">
+                <div class="options_item">
+                    <h3>Сложности адаптации3</h3>
                     <p>страх одиночества, сильная привязанность к другому человеку, нерешительность</p>
                 </div>
 
@@ -245,5 +312,7 @@
 
     </section>
     <!-- END OF DEALS -->
+
+    <script src="assets/script.js" defer></script>
 </body>
 </html>

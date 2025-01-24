@@ -47,6 +47,10 @@ h1
     margin-bottom: 30px;
 }
 
+section {
+    scroll-margin-top: 50px; /* Добавляет отступ при скролле */
+}
+
 .container
 {
     max-width: 1237px;
@@ -55,16 +59,40 @@ h1
 
 /* HEADER */
 
-header
-{
-    margin-top: 30px;
+header {
+    position: fixed; /* Фиксированное положение */
+    top: 0;          /* Отступ сверху */
+    left: 0;         /* Отступ слева */
+    width: 100%;     /* Растягиваем на всю ширину экрана */
+    height: 60px;
+    z-index: 1000;   /* Устанавливаем высокий приоритет отображения */
+    background-color: var(--purple); /* Цвет фона (можно изменить под дизайн) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Лёгкая тень для отделения от контента */
 }
+
 
 .header-content
 {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+}
+
+.header-content a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+
+    transition: all .4s ease;
+}
+
+.header-content a:hover
+{
+    transform: scale(1.1);
 }
 
 .header-content_last
@@ -75,6 +103,7 @@ header
 
 .header-content_last img
 {
+    margin-top: 5px;
     margin-right: 25px;
     transition: all .4s ease;
 }
@@ -88,7 +117,7 @@ nav a
 {
     text-decoration: none;
     margin-right: 45px;
-    color: var(--black);
+    color: white;
     display: inline-block;
 
     transition: all .4s ease;
@@ -96,7 +125,7 @@ nav a
 
 nav a:hover
 {
-    color: var(--purple);
+    /* color: var(--purple); */
     transform: scale(1.05);
 }
 
@@ -123,7 +152,7 @@ main
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 
 .main-content p
@@ -147,7 +176,6 @@ main
 
 .main-content_buttons a:hover
 {
-    /* transform: scale(1.05); */
     background-color: var(--gray);
     border: 2px solid var(--purple);
     color: #984a8aff;
@@ -160,11 +188,57 @@ main
 /* END OF MAIN */
 
 /* OPTIONS */
-.options h1
+.menu-buttons
 {
     text-align: center;
-    line-height: 200%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
     margin-bottom: 60px;
+}
+
+.menu-buttons a
+{
+    margin-right: 50px;
+    background-color: var(--white-gray);
+    color: var(--black);
+    text-decoration: none;
+    padding: 17px 64px;
+    border-radius: 162px;
+
+    transition: all .4s ease;
+}
+
+.menu-buttons a:hover
+{
+    background-color: var(--gray);
+    border: 2px solid var(--purple);
+    color: #984a8aff;
+}
+
+.menu-buttons a.active:hover
+{
+    background-color: var(--gray);
+    border: 2px solid var(--purple);
+    color: #984a8aff; 
+}
+
+.menu-buttons a.active {
+    background-color: var(--purple);
+    color: #FFF;
+}
+
+.options_items.active {
+    display: block;
+}
+
+.options_items.active
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-bottom: 88px;
 }
 
 .options_items
@@ -173,8 +247,28 @@ main
     justify-content: space-between;
     flex-wrap: wrap;
 
-    margin-bottom: 95px;
+    margin-bottom: 88px;
 }
+
+.options_items {
+    display: none;
+}
+
+.options h1
+{
+    text-align: center;
+    line-height: 200%;
+    margin-bottom: 40px;
+}
+
+/* .options_items
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-bottom: 95px;
+} */
 
 .options_item
 {
@@ -206,7 +300,7 @@ main
 {
     text-align: center;
     line-height: 200%;
-    /* margin-bottom: 60px; */
+    margin-bottom: 40px;
 }
 
 .works_items
@@ -265,7 +359,7 @@ main
 {
     text-align: center;
     line-height: 200%;
-    /* margin-bottom: 60px; */
+    margin-bottom: 40px;
 }
 
 .education_items
@@ -320,7 +414,7 @@ main
 {
     text-align: center;
     line-height: 200%;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .deals_items
