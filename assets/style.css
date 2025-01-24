@@ -40,7 +40,7 @@ h1
 {
     color: var(--black);
     font-size: 60px;
-    font-family: "Raleway", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
     line-height: 110%;
     font-weight: 500;
 
