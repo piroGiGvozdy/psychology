@@ -6,11 +6,11 @@
    id="Capa_1"
    x="0px"
    y="0px"
-   viewBox="0 0 34.999996 25.703123"
+   viewBox="0 0 24.999491 18.359001"
    xml:space="preserve"
    sodipodi:docname="email.svg"
-   width="34.999996"
-   height="25.703123"
+   width="24.999491"
+   height="18.359001"
    inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,7 +26,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="7.9269904"
-     inkscape:cx="10.029027"
+     inkscape:cx="10.092103"
      inkscape:cy="29.014795"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
@@ -36,7 +36,7 @@
      inkscape:current-layer="Capa_1"
      showgrid="false" /><g
      id="g2"
-     transform="matrix(0.06835937,0,0,0.06835937,0,-4.6484372)"
+     transform="matrix(0.04882713,0,0,0.04882713,0,-3.3202448)"
      style="fill:#ffffff;fill-opacity:1"><g
        id="g1"
        style="fill:#ffffff;fill-opacity:1"><path
@@ -44,10 +44,10 @@
          id="path1"
          style="fill:#ffffff;fill-opacity:1" /></g></g><g
      id="g4"
-     transform="matrix(0.06835937,0,0,0.06835937,0,-4.6484372)"
+     transform="matrix(0.04882713,0,0,0.04882713,0,-3.3202448)"
      style="fill:#ffffff;fill-opacity:1"><g
        id="g3"
        style="fill:#ffffff;fill-opacity:1"><polygon
-         points="468.604,92.937 256,251.074 43.396,92.937 19.522,125.032 256,300.926 492.478,125.032 "
+         points="256,300.926 492.478,125.032 468.604,92.937 256,251.074 43.396,92.937 19.522,125.032 "
          id="polygon2"
          style="fill:#ffffff;fill-opacity:1" /></g></g></svg>
